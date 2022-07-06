@@ -10,7 +10,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller as BaseController;
 use Illuminate\Support\Facades\Validator;
 
-class ApiController
+class ApiController extends Controller
 {
     CONST NO_ORDERS_FOUND = 'No Orders Found';
 
