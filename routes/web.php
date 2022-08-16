@@ -16,3 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('show-orders', 'WebController@showOrders');
+Route::post('add-order', 'WebController@addOrder');
+Route::post('delete-order', 'WebController@deleteOrder');
+
