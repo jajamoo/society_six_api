@@ -17,8 +17,6 @@ For setup:
 - Run **php artisan migrate**
 - Run **php artisan serve**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
 ## Some cool things to look out for in the Application
 - Routing: there are both **web** routes and **API** routes utilized in the /routes folder.
   - /routes/api.php have endpoints set up. Please take a look at the ApiController and the functions therein for some extra stuff I got done: 
